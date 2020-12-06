@@ -10,6 +10,8 @@ namespace WebApplication5.Models
     {
         public DbSet<Item> Items { get; set; }
         public DbSet<Order> Orders { get; set; }
+        public DbSet<Role> Roles { get; set; }
+        public DbSet<User> Users { get; set; }
         public MobileContext(DbContextOptions<MobileContext> options)
         : base(options)
         {
